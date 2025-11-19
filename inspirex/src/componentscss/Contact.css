@@ -1,0 +1,213 @@
+.heycontact{
+    background-color: rgb(37, 56, 100);
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+}
+
+.landing-page{
+    align-items: center;
+    }
+
+.text .text-title{
+    color: rgba(247,156,0,255);
+    padding-left: 30%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.text> .body-text{
+    color: white;
+    padding-left: 30%;
+    font-weight: bolder;
+}
+
+.img img{
+    height: auto;
+    width: 80%;
+}
+
+/* Digital Products */
+
+
+.products-title{
+    text-align: center;
+    font-size: larger;
+    color: rgba(247,156,0,255);
+    font-weight: bolder;
+}
+.products-body{
+color: rgb(37, 56, 100);
+font-weight: bolder;
+font-size: 40px;
+text-align: center;
+margin: auto auto;
+}
+
+.digital-pro img{
+border-radius: 20px;
+height: 100%;
+width: 100%;
+}
+
+.main .container{
+    background-color: rgb(251, 242, 224);
+    border-radius: 20px;
+}
+
+.main .body-text{
+    padding: 25px;
+}
+
+.main .body-text h1{
+color: rgb(37, 56, 100);
+font-weight: bolder;
+}
+
+.main .body-text p{
+    text-align: justify;
+    font-size: larger;
+    color: rgb(175, 169, 169);
+}
+.main .body-text ul{
+    list-style: square;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
+
+.main .btn{
+    background-color: rgb(37, 56, 100);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+.main .btn:hover{
+    background-color: rgba(0, 123, 158, 1);
+    color: white;
+}
+
+/* Section */
+
+
+.contact-form h1{
+    color: rgba(247,156,0,255);
+    font-weight: bolder;   
+    font-size: 20xp;
+}
+.contact-form h2{
+    color: rgb(37, 56, 100);
+    font-weight: bolder;
+    font-size: 40px;   
+}
+
+.contact-form p{
+    color: black;
+    text-align: justify;
+}
+.contact-form input{
+    width: 80%;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+.contact-form input:hover{
+    border: 2px solid lightgray;
+}
+
+.contact-form #message{
+    width: 80%;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid lightgray;
+
+}
+
+.contact-form .btn{
+    background-color: rgb(37,56,100);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.contact-form .btn:hover{
+    background-color: rgba(0, 123, 158, 1);
+}
+
+/* Tips for a perfect contact */
+
+
+.best-contact .text h1{
+    text-transform: capitalize;
+    color: rgb(37, 56, 100);
+    font-weight: bolder;
+}
+
+.best-contact ul{
+    list-style: decimal;
+    font-size: larger;
+}
+
+.best-contact .img img{
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.contact-form {
+    background-color: #e6f2f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-form h1 {
+    font-size: 2rem;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 20px;
+  }
+  
+  .contact-form p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input.text, 
+  .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button.btn {
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

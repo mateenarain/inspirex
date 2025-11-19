@@ -1,0 +1,157 @@
+/* General Navbar Styles */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar_buttonforcontact {
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: rgba(37, 56, 100, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar_buttonforcontact:hover {
+    background-color: rgba(0, 123, 158, 1);
+    color: white;
+}
+
+.iamnav {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: rgba(0, 123, 158, 1);
+}
+
+/* Logo Sizing for Responsiveness */
+.logo_navbar {
+    width: 13%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo_navbar {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_navbar {
+        width: 50%;
+        height: auto;
+    }
+}
+
+/* Dropdown Styles */
+.custom-dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    left: 0; /* Align to the left side of the screen */
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+    width: 100vw; /* Expand to full viewport width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.nav-item.dropdown:hover .custom-dropdown {
+    display: block;
+}
+
+.brhi {
+    width: 80%; /* Default width of the container-fluid */
+    height: 100vh;
+}
+
+/* Service Block Styling */
+.service-block {
+    text-align: center;
+    padding: 20px;
+  
+    margin-bottom: 20px;
+}
+
+.service-block img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.service-block h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.service-block p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Responsive Navbar Adjustments */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Overlay and Hover Styles */
+.overlay {
+    position: absolute;
+    top: 100%; /* Position below the navbar */
+    left: auto;
+    right: 0;
+    width: 80vw; /* Expand to full viewport width */
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent background */
+    z-index: 1000;
+}
+@media (max-width: 768px) {
+    .overlay {
+        width: 90vw; /* Expand to 90% of viewport width on smaller screens */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Center horizontally */
+        top: calc(100% + 10px); /* Position above "Contact Us" button */
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay {
+        width: 100vw; /* Expand to full viewport width on very small screens */
+        left: 0; /* Align to the left edge */
+        transform: none; /* No centering needed */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contact-hovered {
+      margin-top: 1200px !important;
+    }
+  }
+
+
+
+
+.ithover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+    max-width: 100vw; /* Ensure full viewport width */
+    margin: 0 auto;
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .service-block {
+        width: 100%; /* Full width for smaller screens */
+    }
+}

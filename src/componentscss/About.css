@@ -1,0 +1,82 @@
+.aboutbtn{
+background-color: rgb(37,56,100);
+color: white;
+border: none;
+text-align: center;
+padding: 15px;
+border-radius: 5px;
+font-size: 1.1em;
+}
+.aboutbtn:hover{
+    background-color: rgba(0, 123, 158, 1);
+
+}
+
+
+/* Custom colors */
+.bg-dark-blue {
+    background-color: #243157; /* Replace with the actual dark blue color */
+  }
+  
+  /* Bubble styles */
+  .bubble-container {
+    width: 250px;
+    height: 250px;
+    background-color: #f8f7f4;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .bubble1 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffc857; /* Yellow */
+    top: 20px;
+    left: 20px;
+    animation: float 6s infinite ease-in-out;
+  }
+  
+  .bubble2 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff6b6b; /* Red */
+    bottom: 20px;
+    right: 20px;
+    animation: float 4s infinite ease-in-out;
+  }
+  
+  .bubble3 {
+    width: 60px;
+    height: 60px;
+    background-color: #9adb95; /* Mint green */
+    bottom: 50px;
+    left: 60px;
+    animation: float 5s infinite ease-in-out;
+  }
+  
+  .bubble4 {
+    width: 40px;
+    height: 40px;
+    background-color: #8ac4ff; /* Light blue */
+    top: 50px;
+    right: 60px;
+    animation: float 7s infinite ease-in-out;
+  }
+  
+  /* Bubble animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
